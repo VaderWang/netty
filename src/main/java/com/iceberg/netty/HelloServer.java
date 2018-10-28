@@ -10,8 +10,6 @@ public class HelloServer {
 
         //主线程组
         NioEventLoopGroup masterGroup = new NioEventLoopGroup();
-
-        //从线程组
         NioEventLoopGroup slaveGroup = new NioEventLoopGroup();
 
         //启动类
